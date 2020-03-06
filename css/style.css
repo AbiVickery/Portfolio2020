@@ -1,0 +1,349 @@
+body {
+    background: rgb(222,115,190);
+    background: -moz-linear-gradient(180deg, rgba(222,115,190,1) 0%, rgba(121,26,158,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(222,115,190,1) 0%, rgba(121,26,158,1) 100%);
+    background: linear-gradient(180deg, rgba(222,115,190,1) 0%, rgba(121,26,158,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#de73be",endColorstr="#791a9e",GradientType=1);
+    font-family: 'Kaushan Script', cursive;
+    size: 21px;
+    color: #48235b;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--main-red);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+    background: -webkit-linear-gradient(#650b81, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 28.75em) {
+    .nav {
+     justify-content: center;
+    }
+    
+    .nav-list {
+     margin: 0 1rem;
+    }
+}
+
+.nav-list a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+}
+
+.nav-list a:hover {
+    background: rgb(222,115,190);
+    background: -moz-radial-gradient(circle, rgba(222,115,190,1) 0%, rgba(121,26,158,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(222,115,190,1) 0%, rgba(121,26,158,1) 100%);
+    background: radial-gradient(circle, rgba(222,115,190,1) 0%, rgba(121,26,158,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#de73be",endColorstr="#791a9e",GradientType=1);
+}
+
+#bio {
+    color: #48235b;
+    font-size: 21px;
+    text-align: center;
+}
+
+#bio1 {
+    color: #48235b;
+    font-size: 21px;
+    text-align: center;
+}
+
+#biomini {
+    color: #48235b;
+    font-size: 19px;
+    text-align: center;
+}
+
+.spk {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(800px /10 );
+    height: 90px;
+    background: url(Sparkly\ Keys\ -fly.png);
+    animation: animate 450ms steps(10) infinite;
+    text-align: center;
+    margin: -19px 6px;
+}
+
+    @keyframes  animate {
+    from {
+       background-position: 0;
+    }
+    to {
+       background-position: 800px;
+    }
+}
+
+.skh {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(800px /10 );
+    height: 90px;
+    background: url(Sky\ Heart-fly.png);
+    animation: animate 450ms steps(10) infinite;
+    text-align: center;
+    margin: -19px -86px;
+}
+
+   @keyframes animate {
+    from {
+      background-position: 0;
+    }
+    to {
+      background-position: 800px;
+    }
+}
+
+#spk1 {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(800px /10 );
+    height: 90px;
+    background: url(briska-fly.png);
+    animation: animate 450ms steps(10) infinite;
+    text-align: left;
+    margin: -19px 95px;
+}
+
+    @keyframes  animate {
+    from {
+      background-position: 0;
+    }
+    to {
+      background-position: 800px;
+    }
+}
+
+h1 {
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 5;
+}
+
+h2 {
+    line-height: 1.3;
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    line-height: 1.4;
+    text-align: center;
+    margin: 0;
+    height: 15px;
+}
+
+h4 {
+    line-height: 1.4;
+    text-align: center;
+    
+}
+
+.codepen {
+    height: auto;
+    width: 50%;
+}
+
+.codepen2 {
+    height: auto;
+    width: 50%;
+}
+
+#spk1 {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(800px /10 );
+    height: 90px;
+    background: url(briska-fly.png);
+    animation: animate 450ms steps(10) infinite;
+    text-align: left;
+    margin: 38px 95px;
+}
+
+    @keyframes  animate {
+    from {
+      background-position: 0;
+    }
+    to {
+      background-position: 800px;
+    }
+}
+
+#pic1 {
+    size: 25px;
+    border-radius: 5%;
+    box-shadow: 7px 7px 14px 0px rgba(197, 129, 241, 0.76);
+}
+
+
+#pic2 {
+    size: 25px;
+    border-radius: 5%;
+    box-shadow: 7px 7px 14px 0px rgba(197, 129, 241, 0.76);
+}
+
+
+#pic3 {
+    size: 25px;
+    border-radius: 5%;
+    box-shadow: 7px 7px 14px 0px rgba(197, 129, 241, 0.76);
+}
+
+
+#pic4 {
+    size: 25px;
+    border-radius: 5%;
+    box-shadow: 7px 7px 14px 0px rgba(197, 129, 241, 0.76);
+}
+
+
+#pic5 {
+    size: 25px;
+    border-radius: 5%;
+    box-shadow: 7px 7px 14px 0px rgba(197, 129, 241, 0.76);
+}
+
+
+#pic6 {
+    size: 25px;
+    border-radius: 5%;
+    box-shadow: 7px 7px 14px 0px rgba(197, 129, 241, 0.76);
+}
+
+.container2,
+.container4,
+.container5,
+.container6,
+.container8,
+.container12,
+.container14,
+.container15,
+.container18,
+.container20 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+.grid1,
+.grid2 {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#contact {
+    text-size-adjust: 15px;
+    text-align: center;
+    color: rgb(248, 155, 236);
+}
+
+#atw {
+    color: rgb(1248, 155, 236);
+}
+
+.icons {
+    color: #650b81, #e946c1;
+}
+
+.github {
+    size: 100px;
+}
+
+.linkdin {
+    size: 100px;
+}
+
+.twiter {
+    size: 100px;
+}
+
+.instagram {
+    size: 100px;
+}
+    
+.codpin {
+    size: 100px;
+}
+
+.facbk {
+    size: 100px;
+}
+
+@media (max-width: 61.25em) {
+    html {
+     font-size: 58%;
+    }
+}
+
+@media (max-width: 28.75em) {
+    .nav {
+      justify-content: center;
+    }
+}
+
+@media (max-width: 28.75em) {
+    .projects {
+      font-size: 4rem;
+    }
+}
+
+@media (max-width: 30.625em) {
+    .projects {
+     padding: 6rem 1rem;
+    }
+}
+
+@media (max-width: 28.75em) {
+    .icons {
+      text-align: center;
+    }
+}
+
+@media (max-width: 28.75em) {
+    .icons {
+      text-align: left;
+      text-size-adjust: 25%;
+    }
+}
+
+.fa {
+    color: rgb(248, 155, 236);
+}
+
+.fab, .fas {
+    color: rgb(248, 155, 236);
+}
+
