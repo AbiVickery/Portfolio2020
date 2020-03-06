@@ -180,29 +180,6 @@ h4 {
     width: 50%;
 }
 
-#spk1 {
-    max-width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: calc(800px /10 );
-    height: 90px;
-    background: url(briska-fly.png);
-    animation: animate 450ms steps(10) infinite;
-    text-align: left;
-    margin: 38px 95px;
-}
-
-    @keyframes  animate {
-    from {
-      background-position: 0;
-    }
-    to {
-      background-position: 800px;
-    }
-}
-
 #pic1 {
     size: 25px;
     border-radius: 5%;
