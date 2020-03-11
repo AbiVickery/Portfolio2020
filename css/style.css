@@ -173,10 +173,10 @@ h2 {
 }
 
 h3 {
-    /* color: #48235b; */
-    background: -webkit-linear-gradient(#650b81, rgb(38, 27, 70));
+    color: #48235b;
+    /* background: -webkit-linear-gradient(#650b81, rgb(38, 27, 70));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     line-height: 1.4;
     text-align: center;
     margin: 0;
@@ -356,3 +356,8 @@ h4 {
     color: rgb(248, 155, 236);
 }
 
+#more {
+    text-size-adjust: 15px;
+    text-align: center;
+    color: rgb(248, 155, 236);
+}
