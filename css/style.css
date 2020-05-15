@@ -284,6 +284,27 @@ h4 {
     color: rgb(248, 155, 236);
 }
 
+#spiner:hover,
+#spiner:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+#catt:hover,
+#catt:focus {
+    box-shadow: 0 0.05em 0.05em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+#gamePad:hover,
+#gamePad:focus {
+    box-shadow: 0 0.05em 0.05em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+#daTa:hover,
+#daTa:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
 #atw {
     color: rgb(1248, 155, 236);
 }
@@ -295,25 +316,64 @@ h4 {
 .github {
     size: 100px;
 }
+#github:hover,
+#github:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
 
 .linkdin {
     size: 100px;
+}
+#linkdin:hover,
+#linkdin:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
 }
 
 .twiter {
     size: 100px;
 }
+#twiter:hover,
+#twiter:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
 
 .instagram {
     size: 100px;
+}
+#instagram:hover,
+#instagram:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
 }
     
 .codpin {
     size: 100px;
 }
+#codpin:hover,
+#codpin:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
 
 .facbk {
     size: 100px;
+}
+#facbk:hover,
+#facbk:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
+.deviant {
+    size: 100px;
+}
+#deviant:hover,
+#deviant:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
 }
 
 @media (max-width: 61.25em) {
