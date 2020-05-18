@@ -348,6 +348,15 @@ h4 {
     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
     transform: translateY(-0.25em);
 }
+
+.tiktok {
+    size: 100px;
+}
+#tiktok:hover,
+#tiktok:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
     
 .codpin {
     size: 100px;
@@ -358,11 +367,29 @@ h4 {
     transform: translateY(-0.25em);
 }
 
+.resume {
+    size: 100px;
+}
+#resume:hover,
+#resume:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
 .facbk {
     size: 100px;
 }
 #facbk:hover,
 #facbk:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
+.fcc {
+    size: 100px;
+}
+#fcc:hover,
+#fcc:focus {
     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
     transform: translateY(-0.25em);
 }
