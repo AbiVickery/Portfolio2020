@@ -47,13 +47,13 @@ body {
     padding: 2rem;
 }
 
-.nav-list a:hover {
+/* .nav-list a:hover {
     background: rgb(222,115,190);
     background: -moz-radial-gradient(circle, rgba(222,115,190,1) 0%, rgba(121,26,158,1) 100%);
     background: -webkit-radial-gradient(circle, rgba(222,115,190,1) 0%, rgba(121,26,158,1) 100%);
     background: radial-gradient(circle, rgba(222,115,190,1) 0%, rgba(121,26,158,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#de73be",endColorstr="#791a9e",GradientType=1);
-}
+} */
 
 #bio {
     /* color: #48235b; */
