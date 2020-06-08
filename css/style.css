@@ -33,11 +33,18 @@ body {
 
 @media (max-width: 28.75em) {
     .nav {
-     justify-content: center;
+        display: flex;
+        justify-content: center;
     }
     
     .nav-list {
-     margin: 0 1rem;
+        display: flex;
+        margin: 0 1rem;
+    }
+
+    .nav-list a {
+        display: flex;
+        justify-content: center;
     }
 }
 
