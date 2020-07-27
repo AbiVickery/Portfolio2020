@@ -271,7 +271,8 @@ h4 {
 .container14,
 .container15,
 .container18,
-.container20 {
+.container20,
+.container22 {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -410,6 +411,15 @@ h4 {
     transform: translateY(-0.25em);
 }
 
+.scratch {
+    size: 100px;
+}
+#scratch:hover,
+#scratch:focus {
+    box-shadow: 0 0.5em 0.5em -0.04em var(--hover);
+    transform: translateY(-0.25em);
+}
+
 @media (max-width: 61.25em) {
     html {
         font-size: 58%;
@@ -454,4 +464,26 @@ h4 {
 .game,
 .data {
     background: (GradientType(#bc3be4, rgb(201, 30, 149)));
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(167, 93, 209);
+    color: rgb(53, 14, 88);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#myBtn:hover {
+    background-color: rgb(187, 114, 230);
+    box-shadow: 0 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
 }
