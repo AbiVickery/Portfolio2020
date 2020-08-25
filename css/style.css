@@ -158,7 +158,7 @@ body {
     }
 }
 
-#briska {
+/* #briska {
     max-width: 100%;
     position: absolute;
     top: 50%;
@@ -181,6 +181,32 @@ body {
     }
     to {
       background-position: 0;
+    }
+} */
+
+#briska {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(800px /10 );
+    height: 90px;
+    background: url(Briska2020-fly.png);
+    animation: animate 450ms steps(10) infinite;
+    text-align: left;
+    margin-top: -19px;
+    margin-right: 95px;
+    margin-bottom: -19px;
+    margin-left: 95px;
+}
+
+@keyframes animate {
+    from {
+        background-position: 800px;
+    }
+    to {
+        background-position: 0;
     }
 }
 
