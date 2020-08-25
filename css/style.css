@@ -135,7 +135,7 @@ body {
     }
 }
 
-.skh {
+/* .skh {
     max-width: 100%;
     position: absolute;
     top: 50%;
@@ -155,6 +155,29 @@ body {
     }
     to {
       background-position: 800px;
+    }
+} */
+
+.skh {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(800px /10 );
+    height: 90px;
+    background: url(SkyHeart2020-fly.png);
+    animation: animate 450ms steps(10) infinite;
+    text-align: center;
+    margin: -19px -86px;
+}
+
+@keyframes animate {
+    from {
+        background-position: 0;
+    }
+    to {
+        background-position: 800px;
     }
 }
 
