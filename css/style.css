@@ -345,7 +345,8 @@ h4 {
 .container18,
 .container20,
 .container22,
-.container24 {
+.container24,
+.container26 {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -500,6 +501,15 @@ h4 {
 #scratch:focus {
     box-shadow: 0 0.5em 0.5em -0.04em var(--hover);
     transform: translateY(-0.25em);
+}
+
+.wattpad {
+    size: 100px;
+}
+#wattpad:hover,
+#wattpad:focus {
+    box-shadow: 0 0.5em 0.5em -0.04em var(--hover);
+    transform: translateY(0.25em);
 }
 
 @media (max-width: 61.25em) {
