@@ -123,7 +123,7 @@ body {
     background: url(SpK2020-fly.png);
     animation: animate 450ms steps(10) infinite;
     text-align: center;
-    margin: -19px 6px;
+    margin: 22px 6px;
 }
 
 @keyframes animate {
@@ -169,7 +169,7 @@ body {
     background: url(SkyHeart2020-fly.png);
     animation: animate 450ms steps(10) infinite;
     text-align: center;
-    margin: -19px -86px;
+    margin: 22px -86px;
 }
 
 @keyframes animate {
