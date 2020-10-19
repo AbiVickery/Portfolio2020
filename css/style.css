@@ -509,7 +509,7 @@ h4 {
 #wattpad:hover,
 #wattpad:focus {
     box-shadow: 0 0.5em 0.5em -0.04em var(--hover);
-    transform: translateY(0.25em);
+    transform: translateY(-0.25em);
 }
 
 @media (max-width: 61.25em) {
