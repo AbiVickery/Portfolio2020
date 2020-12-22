@@ -4,7 +4,7 @@ body {
     background: -webkit-linear-gradient(180deg, rgba(222,115,190,1) 0%, rgba(121,26,158,1) 100%);
     background: linear-gradient(180deg, rgba(222,115,190,1) 0%, rgba(121,26,158,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#de73be",endColorstr="#791a9e",GradientType=1);
-    overflow: hidden;
+    /* overflow: hidden; */
     font-family: 'Kaushan Script', cursive;
     size: 21px;
     color: #48235b;
