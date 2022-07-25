@@ -124,7 +124,7 @@ body {
     background: url(SpK2020-fly.png);
     animation: animate 450ms steps(10) infinite;
     text-align: center;
-    margin: 22px 6px;
+    margin: 2px 6px;
 }
 
 @keyframes animate {
@@ -170,7 +170,7 @@ body {
     background: url(June\ Bug-fly.png);
     animation: animate 450ms steps(10) infinite;
     text-align: left;
-    margin: 22px -86px;
+    margin: 2px -86px;
 }
 
 @keyframes animate {
@@ -242,10 +242,10 @@ body {
     background: url(Briska2020-fly.png);
     animation: animate 450ms steps(10) infinite;
     text-align: left;
-    margin-top: 22px;
-    margin-right: 95px;
-    margin-bottom: -19px;
-    margin-left: 95px;
+    margin-top: 2px;
+    margin-right: 95;
+    margin-bottom: -19;
+    margin-left: 95;
 }
 
 @keyframes animate {
