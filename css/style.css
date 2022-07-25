@@ -369,6 +369,27 @@ h4 {
     margin: 10px;
 }
 
+#pic7 {
+    size: 25px;
+    border-radius: 5%;
+    box-shadow: 7px 7px 14px 0px rgba(197, 129, 241, 0.76);
+    margin: 10px;
+}
+
+#pic8 {
+    size: 25px;
+    border-radius: 5%;
+    box-shadow: 7px 7px 14px 0px rgba(197, 129, 241, 0.76);
+    margin: 10px;
+}
+
+#pic9 {
+    size: 25px;
+    border-radius: 5%;
+    box-shadow: 7px 7px 14px 0px rgba(197, 129, 241, 0.76);
+    margin: 10px;
+}
+
 .container2,
 .container4,
 .container5,
